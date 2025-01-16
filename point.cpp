@@ -1,3 +1,3 @@
 #include "point.h"
 
-Point::Point(double x, double  y): double _x(x), double _y(y){}
+Point::Point(double x, double  y): _x(x),  _y(y){}
