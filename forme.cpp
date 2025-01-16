@@ -1,6 +1,5 @@
 #include "forme.h"
 
-Forme::Forme(){}
 
 void Forme::demander(Point p){
     std::cout<<"Entrer les paramètres pour la forme"<<std::endl;
