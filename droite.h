@@ -6,7 +6,7 @@ class Droite : public Forme{
     public:
         Droite(Point premier, Point second);
         void demander();
-        void afficher();
+        void afficher(Point point);
     private:
         Point _premier;
         Point _second;
